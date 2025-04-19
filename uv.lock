@@ -48,7 +48,7 @@ wheels = [
 
 [[package]]
 name = "dirmap-next"
-version = "25.4.20"
+version = "25.4.21"
 source = { editable = "." }
 dependencies = [
     { name = "gevent" },

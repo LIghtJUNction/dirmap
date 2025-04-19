@@ -8,6 +8,7 @@
 '''
 
 import os
+from pathlib import Path
 import sys
 
 from gevent import monkey
@@ -32,8 +33,11 @@ def main() -> None:
     # anyway output thr banner information
     banner() 
 
+    data_dir = Path(__file__).parent / "data"
+
     # set paths of project 
-    paths.ROOT_PATH = os.getcwd() 
+    paths.ROOT_PATH = str(Path(__file__))
+
     setPaths()
     
     # received command >> cmdLineOptions

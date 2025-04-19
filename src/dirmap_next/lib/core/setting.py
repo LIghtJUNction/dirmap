@@ -10,7 +10,7 @@
 @Description: Upgrade to Python 3.13 && more update
 @Date: 2025-4.20 05:26
 '''
-VERSION = "25.4.20"
+VERSION = "25.4.21"
 BANNER = f"""
                      #####  # #####  #    #   ##   #####
                      #    # # #    # ##  ##  #  #  #    #

@@ -14,7 +14,7 @@ def cmdLineParser() -> argparse.Namespace:
     """
     This function parses the command line parameters and arguments
     """
-    parser = argparse.ArgumentParser(usage="python3 dirmap.py -i https://target.com -lcf")
+    parser = argparse.ArgumentParser(usage="dirmap -i https://target.com -lcf")
 
     # engine
     engine = parser.add_argument_group("Engine", "Engine config")
