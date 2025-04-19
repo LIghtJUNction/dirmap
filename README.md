@@ -12,6 +12,12 @@
 
 ![dirmap](doc/dirmap.png)
 
+# Dirmap-next 
+uv tool install dirmap-next
+
+use: dirmap -i <target>
+
+
 # 需求分析
 
 经过大量调研，总结一个优秀的web目录扫描工具至少具备以下功能：
