@@ -7,7 +7,6 @@
 @LastEditTime: 2023-07-25 15:56:04
 '''
 
-import os
 from pathlib import Path
 import sys
 
@@ -33,11 +32,9 @@ def main() -> None:
     # anyway output thr banner information
     banner() 
 
-    data_dir = Path(__file__).parent / "data"
-
     # set paths of project 
-    paths.ROOT_PATH = str(Path(__file__))
-
+    paths.ROOT_PATH = str(Path(__file__).parent)
+    print(f" 输出：{Path(paths.ROOT_PATH) / 'output'}   \n 数据：{Path(paths.ROOT_PATH) / 'data' }  \n 配置：{Path(paths.ROOT_PATH) / 'dirmap.conf'}"  )
     setPaths()
     
     # received command >> cmdLineOptions
